@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zeeslag</title>
+    <link rel="stylesheet" href="css/zeeslag.css">
+</head>
+<body>
+   
+<div id="game-info">
+    <p>Turn: <span id="turn-js"></span></p>
+    <p>Info: <span id="info-js"></span></p>
+</div>
+
+<div id="gameboard-container"></div> 
+
+
+<div class="option-container">
+    <div id="0" class="destroyer-preview destroyer" draggable="true"></div>
+    <div id="1" class="submarine-preview submarine" draggable="true"></div>
+    <div id="2" class="cruiser-preview cruiser" draggable="true"></div>
+    <div id="3" class="corvette-preview corvette" draggable="true"></div>
+    <div id="4" class="carrier-preview carrier" draggable="true"></div>
+</div>
+<div class="button-container">
+<button id="flip-btn">FLIP</button>
+<button id="start-btn">START</button>
+</div>
+
+<button id="home-btn"><a href="/startPagina.html">Home</a></button>
+
+<script src="/js/zeeSlag.js"></script>
+</body>
+</html>
